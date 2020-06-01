@@ -1,0 +1,10 @@
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\bin\Debug\Lab8POO.exe.config
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\bin\Debug\Lab8POO.exe
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\bin\Debug\Lab8POO.pdb
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.csprojAssemblyReference.cache
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.Properties.Resources.resources
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.csproj.GenerateResource.cache
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.csproj.CoreCompileInputs.cache
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.exe
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.pdb
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.Inicio.resources
