@@ -245,6 +245,7 @@
             this.Nronew.Name = "Nronew";
             this.Nronew.Size = new System.Drawing.Size(100, 20);
             this.Nronew.TabIndex = 14;
+            this.Nronew.TextChanged += new System.EventHandler(this.Nronew_TextChanged);
             // 
             // Hornew
             // 

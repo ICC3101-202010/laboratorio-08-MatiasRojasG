@@ -214,5 +214,10 @@ namespace Lab8POO
         {
 
         }
+
+        private void Nronew_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
