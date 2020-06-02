@@ -29,7 +29,8 @@ namespace Lab8POO
 
         private void Ingresar_Click(object sender, EventArgs e)
         {
-
+            using (Local ventanaLocal = new Local(División.Text))
+                ventanaLocal.ShowDialog();
         }
 
         private void Inicio_Load(object sender, EventArgs e)

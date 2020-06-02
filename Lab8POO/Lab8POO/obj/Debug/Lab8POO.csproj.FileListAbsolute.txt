@@ -8,3 +8,4 @@ C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\De
 C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.exe
 C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.pdb
 C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.Inicio.resources
+C:\Users\Matias Rojas\Desktop\laboratorio-08-MatiasRojasG\Lab8POO\Lab8POO\obj\Debug\Lab8POO.Local.resources
