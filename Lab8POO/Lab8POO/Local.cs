@@ -67,28 +67,34 @@ namespace Lab8POO
         private void ShowInfo_Click(object sender, EventArgs e)
         {
             //Para las tiendas
-            if (Nombres.Text=="Tienda 1")
+            if (Nombres.Text == "Tienda 1")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyT1 \n Numero Identificador: 0011 \n Categoría: Ropa \n";
+                Info.Text += "Nombre Dueño: xxyyT1 \nNumero Identificador: 0011 \nCategoría: Ropa \n";
                 Info.Text += "Horario: 9:00 am - 8:00pm";
             }
             if (Nombres.Text == "Tienda 2")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyT2 \n Numero Identificador: 0011 \n Categoría: Jugueteria \n";
+                Info.Text += "Nombre Dueño: xxyyT2 \nNumero Identificador: 0011 \nCategoría: Jugueteria \n";
                 Info.Text += "Horario: 9:00 am - 8:00pm";
             }
             if (Nombres.Text == "Tienda 3")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyT3 \n Numero Identificador: 0011\n  Categoría: Hogar \n";
+                Info.Text += "Nombre Dueño: xxyyT3 \nNumero Identificador: 0011\nCategoría: Hogar \n";
                 Info.Text += "Horario: 9:00 am - 8:00pm";
             }
             if (Nombres.Text == "Tienda 4")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyT4 \n Numero Identificador: 0011 \n Categoría: Deportes \n";
+                Info.Text += "Nombre Dueño: xxyyT4 \nNumero Identificador: 0011 \nCategoría: Deportes \n";
+                Info.Text += "Horario: 9:00 am - 8:00pm";
+            }
+            if (Nombres.Text == Nombrenew.Text)
+            {
+                Info.Text = "";
+                Info.Text += "Nombre Dueño:"+Dueñonew.Text+" \n Numero Identificador:"+Nronew.Text+"\nCategoría:"+Catnew.Text+" \n";
                 Info.Text += "Horario: 9:00 am - 8:00pm";
             }
 
@@ -104,32 +110,46 @@ namespace Lab8POO
             if (Nombres.Text == "Restaurant 2")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyR2 \n Numero Identificador: 0011 \n";
+                Info.Text += "Nombre Dueño: xxyyR2 \n Numero Identificador: 0011\n";
                 Info.Text += "Horario: 10:00 am - 8:00pm\n";
                 Info.Text += "Mesas Exclusivas: Sí";
             }
             if (Nombres.Text == "Restaurant 3")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyR3 \n Numero Identificador: 0011 \n";
+                Info.Text += "Nombre Dueño: xxyyR3 \n Numero Identificador: 0011\n";
                 Info.Text += "Horario: 10:00 am - 9:00pm\n";
                 Info.Text += "Mesas Exclusivas: No";
+            }
+            if (Nombres.Text == Nombrenew.Text)
+            {
+                Info.Text = "";
+                Info.Text += "Nombre Dueño:" + Dueñonew.Text + " \n Numero Identificador:" + Nronew.Text+"\n";
+                Info.Text += "Horario: 10:00 am - 9:00pm\n";
+                Info.Text += "Mesas Exclusivas: "+MesExc.Text;
             }
 
             //Para los cines
             if (Nombres.Text == "Cine 1")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyC1 \n Numero Identificador: 0011 \n";
+                Info.Text += "Nombre Dueño: xxyyC1 \n Numero Identificador: 0011\n";
                 Info.Text += "Horario: 10:00 am - 12:00am\n";
                 Info.Text += "Numero de Salas: 10";
             }
             if (Nombres.Text == "Cine 2")
             {
                 Info.Text = "";
-                Info.Text += "Nombre Dueño: xxyyC2 \n Numero Identificador: 0011 \n";
+                Info.Text += "Nombre Dueño: xxyyC2 \n Numero Identificador: 0011\n";
                 Info.Text += "Horario: 10:00 am - 12:00am\n";
-                Info.Text += "Numero de Salas: 4";
+                Info.Text += "Numero de Salas: 6";
+            }
+            if (Nombres.Text == Nombrenew.Text)
+            {
+                Info.Text = "";
+                Info.Text += "Nombre Dueño:" + Dueñonew.Text + "\nNumero Identificador: " + Nronew + "\n";
+                Info.Text += "Horario: 10:00 am - 12:00am\n";
+                Info.Text += "Numero de Salas: " + Salasnew.Text;
             }
 
 
@@ -151,6 +171,46 @@ namespace Lab8POO
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            if (namelocal=="Tiendas")
+            {
+                Nombres.Items.Add(Nombrenew.Text);
+            }
+            if (namelocal == "Cines")
+            {
+                Nombres.Items.Add(Nombrenew.Text);
+            }
+            if (namelocal == "Restaurant")
+            {
+                Nombres.Items.Add(Nombrenew.Text);
+            }
+            if (namelocal == "Recreacional")
+            {
+                Nombres.Items.Add(Nombrenew.Text);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }
