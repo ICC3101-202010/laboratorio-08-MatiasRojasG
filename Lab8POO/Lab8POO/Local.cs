@@ -30,28 +30,28 @@ namespace Lab8POO
         }
         void popularNombres()
         {
-            if (namelocal=="Tiendas")
+            if (namelocal=="Tiendas" || namelocal == "tiendas")
             {
                 for (int i = 0; i < tiendasdisponibles.Length;i++)
                 {
                     Nombres.Items.Add(tiendasdisponibles[i]);
                 }
             }
-            if (namelocal == "Cines")
+            if (namelocal == "Cines" || namelocal == "cines")
             {
                 for (int i = 0; i < cinesdisponibles.Length; i++)
                 {
                     Nombres.Items.Add(cinesdisponibles[i]);
                 }
             }
-            if (namelocal == "Restaurant")
+            if (namelocal == "Restaurant" || namelocal == "restaurant" || namelocal == "restaurantes" || namelocal == "Restaurantes" || namelocal == "Restonares" || namelocal == "restoranes")
             {
                 for (int i = 0; i < restdisponibles.Length; i++)
                 {
                     Nombres.Items.Add(restdisponibles[i]);
                 }
             }
-            if (namelocal == "Recreacional")
+            if (namelocal == "Recreacional" || namelocal == "recreacional")
             {
                 for (int i = 0; i < recdisponibles.Length; i++)
                 {
@@ -177,19 +177,19 @@ namespace Lab8POO
 
         private void Add_Click(object sender, EventArgs e)
         {
-            if (namelocal=="Tiendas")
+            if (namelocal=="Tiendas" || namelocal == "tiendas")
             {
                 Nombres.Items.Add(Nombrenew.Text);
             }
-            if (namelocal == "Cines")
+            if (namelocal == "Cines" || namelocal == "cines")
             {
                 Nombres.Items.Add(Nombrenew.Text);
             }
-            if (namelocal == "Restaurant")
+            if (namelocal == "Restaurant" || namelocal == "restaurant" || namelocal == "restaurantes" || namelocal == "Restaurantes" || namelocal == "Restonares" || namelocal == "restoranes")
             {
                 Nombres.Items.Add(Nombrenew.Text);
             }
-            if (namelocal == "Recreacional")
+            if (namelocal == "Recreacional" || namelocal == "recreacional")
             {
                 Nombres.Items.Add(Nombrenew.Text);
             }
